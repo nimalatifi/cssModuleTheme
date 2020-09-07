@@ -1,0 +1,51 @@
+
+
+:root{
+    --primary:#4628ff;
+    --warning:#ffd028;
+    --danger:#eb3f27;
+    --success:#327739;
+    --white:#fdfdfd;
+    --dark:#181717;
+    --gray:#b4b4b4;
+}
+
+
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color:var(--primary);
+    border: solid 4px var(--white);
+    padding: 5%;
+    font-size: 20px;
+    width: 150px;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    color:var(--white)
+}
+
+.fontColor{
+    color:var(--white)
+}
+
+.btn:hover{
+    border:solid 4px var(--primary);
+    transition: all 0.4s ease-in-out;
+    background-color: var(--white);
+    color:var(--primary)
+}
+
+.btn .inner{
+    height: 20px;
+    background-color:var(--primary);
+    margin:10px;
+    border:solid 1px var(--primary);
+    display: table;
+    color:var(--dark)
+}

@@ -1,0 +1,39 @@
+.app{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 500px;
+  margin: 0 auto;
+  background: #333;
+  align-self: center;
+}
+
+.app .asid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  border: solid 1px;
+  order: 1;
+}
+.app .asid div{
+  margin: 12% 2%; 
+}
+.app .asid button{
+  margin: 12% 2%; 
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 600px;
+  border:solid 1px;
+  justify-content: center;
+}
+#root{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #d6d2a7;
+  min-height: 905px;
+}
